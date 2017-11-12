@@ -1,13 +1,15 @@
 [
-  "hubot-aws",
+  "cheerio",
+  "hubot-darksky",
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
+  "hubot-giphy",
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-yelp"
 ]
