@@ -48,19 +48,19 @@ Then you can interact with hubot-genie by typing `hubot help`.
 Make sure you have a local ENV file with exported variables for you specific modules:
 
 ```bash
-    export HUBOT_ADAPTER=slack
-    export HUBOT_OWNER="noneck (Rick Russell)"
-    export HUBOT_NAME=genie
-    export HUBOT_DESCRIPTION="Genie, our Hubot!"
-    export HUBOT_SLACK_TOKEN="xoxb-<TOKEN_ID>"
-    export HUBOT_GOOGLE_CSE_ID=<ID>
-    export HUBOT_GOOGLE_CSE_KEY=<GOOGLE_CSE_KEY>
-    export HUBOT_DARK_SKY_API_KEY=<API_KEY>
-    export HUBOT_DARK_SKY_DEFAULT_LOCATION="<LAT,LONG>"
-    export HUBOT_DARK_SKY_UNITS=us
-    export HUBOT_YELP_APP_ID=<YELP_ID>
-    export HUBOT_YELP_APP_SECRET=<YELP_SECRET>
-    export HUBOT_YELP_DEFAULT_LOCATION="CITY STATE"
+export HUBOT_ADAPTER=slack
+export HUBOT_OWNER="noneck (Rick Russell)"
+export HUBOT_NAME=genie
+export HUBOT_DESCRIPTION="Genie, our Hubot!"
+export HUBOT_SLACK_TOKEN="xoxb-<TOKEN_ID>"
+export HUBOT_GOOGLE_CSE_ID=<ID>
+export HUBOT_GOOGLE_CSE_KEY=<GOOGLE_CSE_KEY>
+export HUBOT_DARK_SKY_API_KEY=<API_KEY>
+export HUBOT_DARK_SKY_DEFAULT_LOCATION="<LAT,LONG>"
+export HUBOT_DARK_SKY_UNITS=us
+export HUBOT_YELP_APP_ID=<YELP_ID>
+export HUBOT_YELP_APP_SECRET=<YELP_SECRET>
+export HUBOT_YELP_DEFAULT_LOCATION="CITY STATE"
 ```
 
 To run hubot with docker (detached mode):
