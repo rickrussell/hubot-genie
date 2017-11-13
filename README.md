@@ -251,7 +251,7 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 Head over to Slack Apps and find Hubot App:
 
-[Hubot App]: https://<my-slack>.slack.com/apps/A0F7XDU93-hubot?page=1
+https://my-slack.slack.com/apps/A0F7XDU93-hubot?page=1
 
 Create the App, and you should get Slack Token, test it out like so:
 
