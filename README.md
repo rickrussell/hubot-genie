@@ -45,7 +45,7 @@ Then you can interact with hubot-genie by typing `hubot help`.
 
 #### Docker
 
-Make sure you have a local ENV file with exported variables for you specific modules:
+Make sure you have a local ENV file with exported variables for you specific modules.  I save mine in another dir and copy it over, it's ignored in .gitignore... I've tried to symbolically link them, but Docker build doesn't seem to like it...
 
 ```bash
 export HUBOT_ADAPTER=slack
