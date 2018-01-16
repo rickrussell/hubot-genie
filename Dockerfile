@@ -33,14 +33,14 @@ RUN npm install -g yo generator-hubot
 RUN npm install cheerio --save && npm install
 
 # Create hubot user
-RUN \
- useradd -d /hubot -m -s /bin/bash -U hubot
+RUN useradd -d /hubot -m -s /bin/bash -U hubot
 
 # Activate some built-in scripts
 ADD external-scripts.json /hubot/
 ADD package.json /hubot/
 ADD scripts/ /hubot/scripts
 ADD ENV /hubot/env.sh
+RUN chown -R hubot:hubot /hubot
 
 # Log in as hubot user and change directory
 USER hubot
