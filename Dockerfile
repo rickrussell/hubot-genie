@@ -36,8 +36,9 @@ RUN npm install cheerio --save && npm install
 RUN useradd -d /hubot -m -s /bin/bash -U hubot
 
 # Activate some built-in scripts
-ADD external-scripts.json /hubot/
-ADD package.json /hubot/
+ADD external-scripts.json /hubot/external-scripts.json
+ADD npm-shrinkwrap.json /hubot/npm-shrinkwrap.json
+ADD package.json /hubot/package.json
 ADD scripts/ /hubot/scripts
 ADD ENV /hubot/env.sh
 RUN chown -R hubot:hubot /hubot

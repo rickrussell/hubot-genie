@@ -13,6 +13,16 @@
 # Author:
 #   phyreman
 
+#module.exports = (robot) ->
+#  robot.hear /me gusta/i, (msg) ->
+#    msg.send "https://i.imgur.com/5VDqvND.png"
+#
+gustas = [
+  "https://i.imgur.com/5VDqvND.png",
+  "https://i.imgur.com/83BX6.jpg",
+  "https://i.imgur.com/s4y5WA8.jpg"
+]
+
 module.exports = (robot) ->
-  robot.hear /me gusta/i, (msg) ->
-    msg.send "http://s3.amazonaws.com/kym-assets/entries/icons/original/000/002/252/me-gusta.jpg"
+  robot.hear /.*(me gusta).*/i, (msg) ->
+      msg.send msg.random gustas
