@@ -24,8 +24,8 @@
     "hubot-scripts": "*",
     "hubot-shipit": "*",
     "hubot-slack": "*",
-    "hubot-yelp": "*",
     "nodepie": "*",
+    "npm": "^6.4.1",
     "scraper": "*"
   },
   "engines": {
